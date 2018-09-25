@@ -1,0 +1,26 @@
+.Header {
+  height: 50px;
+  background-color: #dedede;
+  display: flex;
+  flex-direction: row;
+  position:fixed;
+  width: 100vw;
+  top: 0;
+}
+.logo {
+  height: 100%;  
+}
+#nav {
+  padding: 0;
+  margin: auto 50px;
+  text-decoration: none;
+}
+#nav li {
+	display: inline;
+  list-style: none;
+}
+#nav a {
+  text-decoration: none;
+	display:inline-block;
+	margin: 0 30px;
+}

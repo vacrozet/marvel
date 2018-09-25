@@ -1,0 +1,52 @@
+.bodyDescription {
+  height: calc(100vh - 50px);
+  width: 100vw;
+  background-color: #2C3E50;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-items: auto;
+}
+
+.bodyDescription .image {
+  height: 450px;
+  width: 300px;
+  border-radius: 10px;
+  background-size: cover;
+}
+.bodyDescription .name {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 20px;
+}
+.bodyDescription .description {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 20px;
+}
+.bodyDescription .nbComics {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 20px;
+}
+.bodyDescription .listeComics {
+  font-size: 1.8rem;
+  color: white;
+  margin-top: 20px;
+}
+.bodyDescription .remove {
+  height: 50px;
+  width: 200px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+.bodyDescription .add {
+  height: 50px;
+  width: 200px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}

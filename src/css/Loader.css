@@ -1,0 +1,13 @@
+.bodyLoader {
+  height: calc(100vh - 50px);
+  width: 100%;
+  background-color: #2C3E50;
+  margin-top: 50px;
+  display: flex;
+}
+
+.bodyLoader .texte {
+  font-size: 1.8rem;
+  color: white;
+  margin: auto;
+}

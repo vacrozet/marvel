@@ -1,0 +1,74 @@
+.bodyGrid {
+  height: auto;
+  background-color: #2C3E50;
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  /* padding: auto; */
+  overflow: auto;
+  justify-content: center;
+}
+
+.bodyCard {
+  height: 450px;
+  width: 300px;
+  margin: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  border-radius: 10px;
+  cursor: pointer;
+  border: solid 1px red;
+}
+.bodyCard > .opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  opacity: 0;
+  width: 100%;
+  -webkit-transition: opacity .35s ease-in-out;
+  -moz-transition: opacity .35s ease-in-out;
+  -ms-transition: opacity .35s ease-in-out;
+  -o-transition: opacity .35s ease-in-out;
+  transition: opacity .35s ease-in-out;
+}
+
+.bodyCard > .opacity > .descriptif {
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.bodyCard > .opacity > .descriptif > .title {
+    font-size: 1.8rem;
+    font-family: unset;
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: auto;
+}
+.bodyCard > .opacity > .descriptif > .title > .click {
+  font-size: 1rem;
+  font-family: unset;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin: auto;
+}
+.bodyCard:hover > .descriptif {
+  opacity: 1;
+}
+.bodyCard:hover > .opacity {
+  opacity: 1;
+  -webkit-transition: opacity .35s ease-in-out;
+  -moz-transition: opacity .35s ease-in-out;
+  -ms-transition: opacity .35s ease-in-out;
+  -o-transition: opacity .35s ease-in-out;
+  transition: opacity .35s ease-in-out;
+}
+.bodyCard:hover {
+  border: solid 1px blue;
+}

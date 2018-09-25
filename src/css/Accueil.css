@@ -1,0 +1,15 @@
+.Accueil {
+  height: calc(100vh - 50px);
+  width: 100vw;
+  display: flex;
+  background-image: url('https://mcetv.fr/wp-content/uploads/2015/02/Captain-America-3-Spider-Man-rejoint-officiellement-lunivers-Marvel1.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+.title {
+  margin: auto;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
