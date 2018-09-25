@@ -13,5 +13,7 @@ API:
 - 3 chemins pour ajouter, enlever et consulter
 
 Front:
-- Les 'components' sont les composants que j'ai utilisés plusieurs fois.
 - le router est dans index.js
+- Le dossier 'components' sont les composants que j'ai utilisés plusieurs fois.
+- Le dossier 'css' pour toutes les feuilles de style.
+- Le dossier 'route'pour la naviguation.
